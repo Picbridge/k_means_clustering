@@ -1,8 +1,9 @@
 import cv2
 from numpy.linalg import norm
 import numpy as np
+import os
 
-path = 'C:/Users/aky20/source/repos/MAT345_PY/MAT345_PY/aa.jpg'
+path = os.path.join(os.getcwd(),"input.jpg")
 img = cv2.imread(path)
 
 K = 4
